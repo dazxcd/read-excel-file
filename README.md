@@ -1,4 +1,6 @@
-# `read-excel-file`
+# `read-excel-file-forwps`
+
+Copy From read-read-excel-file ，为了支持wps，支持读稀奇古怪的excel
 
 Read `*.xlsx` files in a browser or Node.js. Parse to JSON with a strict schema.
 
@@ -7,7 +9,7 @@ Read `*.xlsx` files in a browser or Node.js. Parse to JSON with a strict schema.
 ## Install
 
 ```js
-npm install read-excel-file --save
+npm install  read-read-excel-file --save
 ```
 
 ## Browser
@@ -17,7 +19,7 @@ npm install read-excel-file --save
 ```
 
 ```js
-import readXlsxFile from 'read-excel-file'
+import readXlsxFile from ' read-read-excel-file'
 
 const input = document.getElementById('input')
 
@@ -32,7 +34,7 @@ input.addEventListener('change', () => {
 ## Node.js
 
 ```js
-const readXlsxFile = require('read-excel-file/node');
+const readXlsxFile = require(' read-read-excel-file/node');
 
 // File path.
 readXlsxFile('/path/to/file').then((rows) => {
@@ -131,7 +133,7 @@ A schema entry for a column can also have a `validate(value)` function for valid
 A React component for displaying error info could look like this:
 
 ```js
-import { parseExcelDate } from 'read-excel-file'
+import { parseExcelDate } from ' read-read-excel-file'
 
 function ParseExcelError({ children: error }) {
   // Human-readable value.
